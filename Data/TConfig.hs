@@ -10,10 +10,7 @@
   A small and simple text file configuration
   library written in Haskell. It is similar
   to the INI file format, but lacks a few of
-  it's features, such as sections. It is 
-  suitable for simple games that need to 
-  keep track of certain information between 
-  plays.
+  its features, such as sections.
 -}
 module Data.TConfig
     (
