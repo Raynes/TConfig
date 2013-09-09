@@ -1,5 +1,5 @@
 Name:                tconfig
-Version:             0.5.1
+Version:             0.5.2
 Synopsis:            Simple text configuration file parser library.
 Description:         
   This Library can be used to keep track of simple information
@@ -10,10 +10,10 @@ License-File:        LICENSE
 Author:              Anthony Simpson
 Maintainer:          DiscipleRayne@gmail.com
 Build-Type:          Simple
-Cabal-Version:	>= 1.2
-Tested-With:	GHC == 6.10
+Cabal-Version:	>= 1.6
+Tested-With:	GHC == 7.6.3
 extra-source-files:  test,README
 
 Library
   Exposed-Modules: Data.TConfig
-  Build-Depends:   base >= 2 && <= 4, containers >= 0.2.0.1
+  Build-Depends:   base ==4.*, containers >= 0.2.0.1
