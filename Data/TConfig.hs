@@ -20,6 +20,9 @@ module Data.TConfig
    , writeConfig
    , remKey
    , addKey
+   , Key
+   , Value
+   , Conf
    ) where
 
 import System.IO
