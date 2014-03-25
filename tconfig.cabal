@@ -9,6 +9,8 @@ License:             BSD3
 License-File:        LICENSE
 Author:              Anthony Simpson
 Maintainer:          DiscipleRayne@gmail.com
+homepage:            https://github.com/Raynes/TConfig
+bug-reports:         https://github.com/Raynes/TConfig/issues
 Build-Type:          Simple
 Cabal-Version:	>= 1.6
 Tested-With:	GHC == 7.6.3
